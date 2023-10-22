@@ -1,0 +1,25 @@
+.mainLayout {
+    display: grid;
+    grid-template-areas: "text1 . logo logo . text2";
+    grid-template-columns: repeat(6, 1fr);
+    height: 100%;
+    place-content: center;
+}
+
+.text {
+    place-self: center;
+    font-size: 2em;
+    color: var(--brown);
+}
+
+.architectureText {
+    grid-area: text1;
+}
+
+.interiorsText {
+    grid-area: text2;
+}
+
+.logo {
+    grid-area: logo;
+}

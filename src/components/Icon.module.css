@@ -1,0 +1,14 @@
+.black,
+.brown {
+    fill: none;
+    stroke-miterlimit: 10;
+    stroke-width: 3px;
+}
+
+.brown {
+    stroke: var(--brown);
+}
+
+.black {
+    stroke: #000;
+}
